@@ -1,1 +1,7 @@
-# Date-string-manipulation-with-Python-
+### Introduction
+As data professionals, we must be familiar with how to work with date time objects and date strings. Therefore, using Python to cod, convert, manipulate, and group data is essential. Working with date strings often requires breaking them down into smaller pieces. Breaking date strings into days, months, and years allows you to group and order the other data in different ways so that you can analyze it. Manipulating date and time strings is a foundational skill in EDA.
+
+I will use a file called eda_manipulate_date_strings_with_python.csv, which comes from the bigquery-public-data.noaa_lightning.lightning_strikes public data table. It contains cloud-to-ground lightning strike information collected by Vaisala's National Lightning Detection Network (NLDN) and aggregated into 0.1° tiles by the National Centers for Environmental Information. This means that all the daily strikes within 0.1° latitude x 0.1° longitude are summed and assigned to a set of geographic coordinates that represents the center of the 0.1° “square” area. area.
+
+### Objectives
+In this project, I will work with 2016–2018 lightning strike data from the National Oceanic and Atmospheric Association (NOAA) to calculate weekly sums of lightning strikes and quarterly lightning strike totals and plot them on bar graphs. Furthermore, I will convert date strings in the NOAA lightning strike dataset into datetime objects and combine these data objects into different groups by segments of time such as quarters and weeks.
